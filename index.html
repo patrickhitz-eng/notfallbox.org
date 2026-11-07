@@ -1,0 +1,202 @@
+<!doctype html><html lang="de-CH"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Notfallbox Webseite</title><meta name="description" content="Notfallbox: Ihre Notfallunterlagen versiegelt verwahrt, zehn Notfallkarten für Ihre Vertrauenspersonen."><meta name="robots" content="noindex"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:#0c0c0e;font-family:Geist,"Instrument Sans",-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:2px solid #0c0c0e;outline-offset:3px;border-radius:6px}
+.in{max-width:1240px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+section[id],div[id]{scroll-margin-top:24px}
+h1,h2,h3{font-weight:500;letter-spacing:-.02em;margin:0;text-wrap:balance}
+h1{font-size:clamp(38px,5.2vw,68px);line-height:1.06}
+h2{font-size:clamp(30px,3.8vw,48px);line-height:1.1}
+h3{font-size:clamp(23px,2.2vw,30px);line-height:1.18}
+p{margin:0}
+.g{color:#65656b}
+.lead{font-size:clamp(18px,1.6vw,20px);line-height:1.5;color:#65656b;max-width:38em;text-wrap:pretty}
+.pill{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:500;font-size:16px;transition:background .15s}
+.pill:hover{background:#2c2c30}
+.pill.sm{min-height:40px;padding:0 18px;font-size:14.5px}
+.pill.ol{background:#fff;color:#0c0c0e;box-shadow:inset 0 0 0 1px #d9d9de}
+.pill.ol:hover{background:#f3f3f5}
+.bar{background:#000;color:#fff;text-align:center;font-size:14.5px;padding:10px 0}
+.bar a{text-decoration:none}.bar a span{text-decoration:underline;text-underline-offset:3px}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.wm{display:inline-flex;align-items:center;gap:9px;font-weight:500;font-size:19px;letter-spacing:-.015em;text-decoration:none}
+.wm i{width:9px;height:9px;border-radius:50%;background:#BE1622}
+.nav ul{display:flex;align-items:center;gap:34px;list-style:none;margin:0;padding:0;font-size:15.5px}
+.nav ul a{text-decoration:none;color:#3f3f45}.nav ul a:hover{color:#000}
+.hero{position:relative;text-align:center;padding-top:56px;overflow:hidden}
+.hero:before{content:"";position:absolute;left:50%;top:-140px;width:1500px;max-width:150vw;height:1000px;transform:translateX(-50%);background:radial-gradient(38% 42% at 34% 42%,#f3e6f6 0,transparent 100%),radial-gradient(36% 40% at 66% 40%,#e2ecfb 0,transparent 100%),radial-gradient(34% 34% at 50% 72%,#fbeadf 0,transparent 100%);pointer-events:none}
+.hero>*{position:relative}
+.hero .lead{margin:22px auto 30px;text-wrap:balance}
+.hero h1{max-width:15em;margin:0 auto}
+.shot{margin:26px auto 0;width:100%;max-width:1180px;animation:rise 1s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{transform:translateY(26px)}to{transform:none}}
+.flow{margin:8px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(7,1fr);gap:10px}
+.flow a{display:block;height:100%;text-decoration:none;border:1px solid #ececf0;border-radius:20px;padding:10px 10px 14px;background:#fff;transition:border-color .15s,transform .15s}
+.flow a:hover{border-color:#b9b9c2;transform:translateY(-2px)}
+.flow .th{display:block;border-radius:12px;background:linear-gradient(150deg,#f2eef9,#eef3fa);aspect-ratio:4/3;overflow:hidden}
+.flow .th img{width:100%;height:100%;object-fit:contain;padding:4px}
+.flow li:last-child .th{background:radial-gradient(90% 90% at 70% 20%,#2a2730,#08080a)}
+.flow b{display:block;font-weight:500;font-size:15px;line-height:1.25;margin-top:11px;padding:0 4px;text-wrap:balance}
+.flow small{display:block;color:#65656b;font-size:13px;padding:0 4px}
+.sec{padding-top:112px}
+.head{text-align:center;max-width:44rem;margin:0 auto 52px}
+.head .lead{margin:16px auto 0}
+.bento{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.c{border-radius:24px;border:1px solid #efeff3;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.c .pic{order:-1;display:flex;align-items:center;justify-content:center;padding:18px 18px 0;min-height:0}
+.c .tx{padding:26px 36px 36px}
+.c .tx p{color:#65656b;margin-top:10px;max-width:34em;text-wrap:pretty}
+.n{display:block;font-size:15px;color:#65656b;margin-bottom:10px}
+.wide{grid-column:1/-1;flex-direction:row;align-items:center}
+.wide .tx{flex:0 0 40%;padding:48px}
+.wide .pic{flex:1;padding:24px;order:0}
+.wide.rev .pic{order:-1}
+.p1{background:linear-gradient(155deg,#efeafb,#f8eff6 70%)}
+.p2{background:linear-gradient(155deg,#e6effb,#eff3fb 70%)}
+.p3{background:linear-gradient(155deg,#fbeee4,#fbf1ee 70%)}
+.p4{background:linear-gradient(155deg,#e6f4ef,#eef5f6 70%)}
+.p5{background:linear-gradient(155deg,#f6edf6,#ecf0fb 80%)}
+.p6{background:linear-gradient(155deg,#f4f3ee,#eef0f4 80%)}
+.note{font-size:15px;border-top:1px solid rgba(12,12,14,.1);margin-top:18px;padding-top:14px;color:#55555b}
+.night{position:relative;margin-top:20px;border-radius:32px;background:#08080a;color:#f4f0e7;overflow:hidden;display:grid;grid-template-columns:1fr 1.15fr;align-items:center;gap:12px;padding:72px 64px}
+.night:before{content:"";position:absolute;right:-8%;top:-30%;width:75%;height:150%;background:radial-gradient(50% 50% at 50% 50%,rgba(150,120,190,.3),rgba(190,22,34,.1) 55%,transparent 75%);pointer-events:none}
+.night>*{position:relative}
+.night .n{color:#a9a9b0}
+.night h2{margin-bottom:18px}
+.night p{color:#c5c3bf}
+.tel{display:block;font-size:clamp(32px,4vw,48px);font-weight:400;letter-spacing:-.01em;color:#F0656A;text-decoration:none;margin:22px 0 4px}
+.steps{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:12px;counter-reset:s}
+.steps li{padding-top:12px;border-top:1px solid rgba(244,240,231,.14);color:#e6e2da}
+.law{margin-top:22px;font-size:15px;color:#a9a9b0!important}
+.grp{margin-top:60px}
+.grp:first-of-type{margin-top:0}
+.grp>h3{margin-bottom:22px}
+.lib{display:grid;grid-template-columns:repeat(var(--c),1fr);gap:18px}
+.d{border:1px solid #ececf0;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;background:#fff}
+.d .im{height:250px;overflow:hidden}
+.d .im img{width:100%;height:100%;object-fit:contain}
+.d .bd{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
+.d h4{margin:0;font-size:18px;font-weight:500;letter-spacing:-.01em;line-height:1.25}
+.d p{font-size:14.5px;color:#65656b;margin-top:6px;margin-bottom:16px;line-height:1.4}
+.btns{display:flex;gap:8px;margin-top:auto}
+.btns .pill{flex:1;padding:0 10px}
+.hand{margin-top:18px;border-radius:20px;background:#f6f6f8;padding:20px 26px;font-size:16px;color:#3f3f45}
+.hand strong{font-weight:500;color:#0c0c0e}
+.not{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.not div{border:1px solid #ececf0;border-radius:24px;padding:28px}
+.not h3{font-size:20px;letter-spacing:-.01em;margin-bottom:8px}
+.not p{color:#65656b;font-size:16px}
+.price{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.pc{border-radius:24px;padding:48px}
+.pc.b{background:#08080a;color:#f4f0e7;position:relative;overflow:hidden}
+.pc.b:before{content:"";position:absolute;inset:auto -20% -60% 30%;height:130%;background:radial-gradient(50% 50% at 50% 50%,rgba(150,120,190,.28),transparent 72%)}
+.pc.b>*{position:relative}
+.big{font-size:clamp(46px,5.4vw,72px);font-weight:500;letter-spacing:-.03em;line-height:1;margin:12px 0 8px}
+.pc.b .g{color:#bdbbb6}
+.pc ul{margin:24px 0 0;padding:0;list-style:none}
+.pc li{padding:11px 0;border-top:1px solid rgba(244,240,231,.14)}
+.pc.b .pill{background:#fff;color:#000;margin-top:28px}
+.pc.b .pill:hover{background:#e9e9ec}
+.pc.l{display:flex;flex-direction:column;justify-content:center}.pc.l h3{font-size:clamp(30px,3.2vw,44px);line-height:1.1}.pc.l p{margin-top:16px;color:#55555b;font-size:clamp(17px,1.5vw,20px);max-width:28em}
+footer{margin-top:112px;border-top:1px solid #ececf0;padding:44px 0 48px;font-size:15px;color:#65656b}
+.ft{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:28px}
+.ft strong{display:block;font-weight:500;color:#0c0c0e;margin-bottom:6px}
+.draft{margin-top:30px;font-size:13px}
+#dl-msg{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:9;background:#000;color:#fff;border-radius:999px;padding:11px 20px;font-size:14.5px;max-width:calc(100vw - 32px)}
+@media(max-width:1080px){.flow{grid-template-columns:repeat(4,1fr)}.lib{--c:3!important}.night{grid-template-columns:1fr;padding:56px 40px}.wide .tx{padding:36px;flex-basis:44%}}
+@media(max-width:760px){
+ .in{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+ body{font-size:16px}
+ .nav{height:64px}.nav ul li:not(:last-child){display:none}
+ .hero{padding-top:30px}
+ .flow{grid-template-columns:repeat(2,1fr)}.flow li:last-child{grid-column:1/-1}.flow li:last-child .th{aspect-ratio:8/3}
+ .sec{padding-top:76px}.head{margin-bottom:34px}
+ .bento{grid-template-columns:1fr;gap:14px}
+ .wide{flex-direction:column}.wide .tx{padding:6px 24px 28px;flex:none}.wide .pic,.wide.rev .pic{order:-1;padding:14px 14px 0}
+ .c .tx{padding:18px 24px 28px}
+ .night{border-radius:24px;padding:40px 24px 32px;margin-top:14px}
+ .lib{--c:2!important;gap:12px}.d .im{height:170px}
+ .lib .d:last-child:nth-child(odd){grid-column:1/-1}.d{border-radius:20px}.d .bd{padding:14px}.d h4{font-size:16px}.d p{font-size:13.5px}.btns{flex-direction:column}
+ .not,.price{grid-template-columns:1fr}.pc{padding:32px 24px}
+ .ft{grid-template-columns:1fr;gap:18px}footer{margin-top:76px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style>
+<div class="bar"><div class="in"><a href="#notfall"><span>Notfallkarte gefunden? So gehen Sie vor.</span></a></div></div>
+<header class="in"><nav class="nav" aria-label="Hauptnavigation"><a class="wm" href="#top"><i></i>Notfallbox</a><ul><li><a href="#ablauf">Ablauf</a></li><li><a href="#preis">Preis</a></li><li><a href="#treuhaender">Treuhänder</a></li><li><a class="pill sm" href="#vorlagen" style="color:#fff">Vorlagen</a></li></ul></nav></header>
+<main id="top">
+<section class="hero"><div class="in"><h1>Für den Tag, an dem Sie nicht mehr erreichbar sind.</h1>
+<p class="lead">Ihre Unterlagen liegen versiegelt bei uns. Zehn Karten sagen Ihren Vertrauten, wo sie sie abholen.</p>
+<a class="pill" href="#vorlagen">Vorlagen herunterladen</a>
+<img class="shot" src="assets/hero.webp" alt="Versiegelter Beutel Nummer 720 mit rotem Siegelstreifen und ein Fächer schwarzer Notfallkarten" width="2400" height="1540" fetchpriority="high"></div></section>
+<section class="in" id="ablauf" aria-label="Der Ablauf in sieben Schritten"><ol class="flow"><li><a href="#s1"><span class="th"><img src="assets/step1.webp" alt="" width="1500" height="1030" loading="lazy"></span><small>Schritt 1</small><b>Herunterladen</b></a></li><li><a href="#s2"><span class="th"><img src="assets/step2.webp" alt="" width="1500" height="1030" loading="lazy"></span><small>Schritt 2</small><b>Ausfüllen</b></a></li><li><a href="#s3"><span class="th"><img src="assets/step3.webp" alt="" width="1500" height="1030" loading="lazy"></span><small>Schritt 3</small><b>Versiegeln</b></a></li><li><a href="#s4"><span class="th"><img src="assets/step4.webp" alt="" width="1500" height="1030" loading="lazy"></span><small>Schritt 4</small><b>Einsenden</b></a></li><li><a href="#s5"><span class="th"><img src="assets/step5.webp" alt="" width="1500" height="1030" loading="lazy"></span><small>Schritt 5</small><b>Zehn Karten erhalten</b></a></li><li><a href="#s6"><span class="th"><img src="assets/step6.webp" alt="" width="1500" height="1030" loading="lazy"></span><small>Schritt 6</small><b>Verteilen</b></a></li><li><a href="#s7"><span class="th"><img src="assets/step7.webp" alt="" width="1500" height="1030" loading="lazy"></span><small>Schritt 7</small><b>Im Notfall melden und Box erhalten</b></a></li></ol></section>
+<section class="in sec"><div class="head"><h2>Sieben Schritte. Dann liegt alles bereit.</h2><p class="lead">Kein Login, kein Portal. Ihre Daten bleiben auf Papier.</p></div>
+<div class="bento">
+<article class="c p1 wide" id="s1"><div class="tx"><span class="n">Schritt 1</span><h3>Herunterladen</h3><p>Laden Sie die Vorlagen unten auf dieser Seite herunter. Sie entscheiden, welche Sie brauchen.</p></div><div class="pic"><img src="assets/step1.webp" alt="Drei Vorlagen als Blätter" width="1500" height="1030" loading="lazy"></div></article>
+<article class="c p2" id="s2"><div class="tx"><span class="n">Schritt 2</span><h3>Ausfüllen</h3><p>Füllen Sie die Vorlagen aus, allein oder mit Ihrem Treuhänder. Tragen Sie im Hinterlegungsformular bis zu zehn Personen ein, die die Box abholen dürfen.</p></div><div class="pic"><img src="assets/step2.webp" alt="Vorlage Notfallkontakte mit Füller" width="1500" height="1030" loading="lazy"></div></article>
+<article class="c p3" id="s3"><div class="tx"><span class="n">Schritt 3</span><h3>Versiegeln</h3><p>Ihr Treuhänder legt die Unterlagen in den nummerierten Sicherheitsbeutel und versiegelt ihn. Keine Wertsachen: kein Bargeld, kein Schmuck, keine Wertpapiere.</p></div><div class="pic"><img src="assets/step3.webp" alt="Blatt und versiegelter Beutel Nummer 720" width="1500" height="1030" loading="lazy"></div></article>
+<article class="c p4 wide rev" id="s4"><div class="tx"><span class="n">Schritt 4</span><h3>Einsenden</h3><p>Ihr Treuhänder sendet den Beutel eingeschrieben an die Advisori GmbH. Das Hinterlegungsformular liegt lose bei, ausserhalb des Beutels.</p></div><div class="pic"><img src="assets/step4.webp" alt="Eingeschriebener Umschlag an die Advisori GmbH und Beutel" width="1500" height="1030" loading="lazy"></div></article>
+<article class="c p5" id="s5"><div class="tx"><span class="n">Schritt 5</span><h3>Zehn Karten erhalten</h3><p>Wir tragen Ihre Nummer und Ihre Personen ein, prüfen das Siegel und lagern den Beutel, ohne ihn zu öffnen. Sie erhalten zehn Karten und die Eingangsbestätigung.</p></div><div class="pic"><img src="assets/step5.webp" alt="Stapel von zehn Notfallkarten" width="1500" height="1030" loading="lazy"></div></article>
+<article class="c p6" id="s6"><div class="tx"><span class="n">Schritt 6</span><h3>Verteilen</h3><p>Geben Sie die Karten Ihren Kindern, Freunden und Bekannten. Auf der Karte steht kein Name. Sie enthält keine vertraulichen Angaben.</p></div><div class="pic"><img src="assets/step6.webp" alt="Drei Notfallkarten, Vorder- und Rückseite" width="1500" height="1030" loading="lazy"></div></article>
+</div>
+<div class="night" id="s7"><div id="notfall"><span class="n">Schritt 7</span><h2>Im Notfall melden und Box erhalten.</h2><p>Sie haben eine Notfallkarte gefunden oder erhalten? So gehen Sie vor.</p>
+<a class="tel" href="tel:0800000000">0800 000 000</a><p class="law" style="margin-top:0">Platzhalter. Die Nummer auf Ihrer Karte gilt.</p>
+<ol class="steps"><li>Rufen Sie an und nennen Sie die Nummer auf der Karte.</li><li>Kommen Sie vorbei. Bringen Sie Ihren Ausweis [und Nachweis: noch zu entscheiden] mit.</li><li>Ihr Name muss bei uns hinterlegt sein. Sie erhalten die Box gegen Unterschrift.</li></ol>
+<p class="law">Liegt ein Testament oder Erbvertrag im Beutel, liefern wir diese im Todesfall zuerst bei der Behörde ein. Erst danach geben wir etwas heraus.</p></div>
+<img src="assets/step7.webp" alt="Zwei schwarze Notfallkarten Nummer 720 im Streiflicht" width="1500" height="1030" loading="lazy"></div>
+</section>
+<section class="in sec"><div class="head"><h2>Die Karte sagt nur das Nötige.</h2><p class="lead">Eine Nummer, ein Telefon, drei Sätze. Kein Name, kein QR-Code.</p></div>
+<div class="bento"><figure class="c p2" style="margin:0"><div class="pic"><img src="assets/card-front.webp" alt="Vorderseite der Notfallkarte: Notfallbox, Nummer 720, Ist etwas passiert? Rufen Sie an." width="1500" height="1030" loading="lazy"></div></figure>
+<figure class="c p1" style="margin:0"><div class="pic"><img src="assets/card-back.webp" alt="Rückseite der Notfallkarte: Nennen Sie die Nummer. Bringen Sie Ihren Ausweis mit. Ihr Name muss bei uns hinterlegt sein." width="1500" height="1030" loading="lazy"></div></figure></div></section>
+<section class="in sec" id="vorlagen"><div class="head"><h2>Dreizehn Vorlagen. Nehmen Sie, was Sie brauchen.</h2><p class="lead">Als PDF oder Word zum Ausfüllen. Sie sind Muster und ersetzen keine Beratung.</p></div>
+<div class="grp"><h3>Für die ersten Stunden</h3><div class="lib" style="--c:4"><article class="d"><div class="im p1"><img src="assets/doc01.webp" alt="Erste Seite der Vorlage Notfallkontakte" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Notfallkontakte</h4><p>Ausfüllen</p><div class="btns"><a class="pill sm" href="vorlagen/01-notfallkontakte.pdf" data-dl="01-notfallkontakte.pdf" aria-label="Notfallkontakte als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/01-notfallkontakte.docx" data-dl="01-notfallkontakte.docx" aria-label="Notfallkontakte als Word herunterladen">Word</a></div></div></article><article class="d"><div class="im p1"><img src="assets/doc10.webp" alt="Erste Seite der Vorlage Erste 72 Stunden" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Erste 72 Stunden</h4><p>Ausfüllen</p><div class="btns"><a class="pill sm" href="vorlagen/10-erste-72-stunden.pdf" data-dl="10-erste-72-stunden.pdf" aria-label="Erste 72 Stunden als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/10-erste-72-stunden.docx" data-dl="10-erste-72-stunden.docx" aria-label="Erste 72 Stunden als Word herunterladen">Word</a></div></div></article><article class="d"><div class="im p1"><img src="assets/doc12.webp" alt="Erste Seite der Vorlage Wo liegt was" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Wo liegt was</h4><p>Ausfüllen</p><div class="btns"><a class="pill sm" href="vorlagen/12-wo-liegt-was.pdf" data-dl="12-wo-liegt-was.pdf" aria-label="Wo liegt was als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/12-wo-liegt-was.docx" data-dl="12-wo-liegt-was.docx" aria-label="Wo liegt was als Word herunterladen">Word</a></div></div></article><article class="d"><div class="im p1"><img src="assets/doc11.webp" alt="Erste Seite der Vorlage Persönliche Wünsche" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Persönliche Wünsche</h4><p>Ausfüllen</p><div class="btns"><a class="pill sm" href="vorlagen/11-wuensche.pdf" data-dl="11-wuensche.pdf" aria-label="Persönliche Wünsche als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/11-wuensche.docx" data-dl="11-wuensche.docx" aria-label="Persönliche Wünsche als Word herunterladen">Word</a></div></div></article></div></div><div class="grp"><h3>Vorsorge und Recht</h3><div class="lib" style="--c:4"><article class="d"><div class="im p2"><img src="assets/doc02.webp" alt="Erste Seite der Vorlage Vorsorgeauftrag" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Vorsorgeauftrag</h4><p>Anleitung und Muster. Von Hand schreiben oder beurkunden.</p><div class="btns"><a class="pill sm" href="vorlagen/02-vorsorgeauftrag.pdf" data-dl="02-vorsorgeauftrag.pdf" aria-label="Vorsorgeauftrag als PDF herunterladen">PDF</a></div></div></article><article class="d"><div class="im p2"><img src="assets/doc03.webp" alt="Erste Seite der Vorlage Patientenverfügung" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Patienten&shy;verfügung</h4><p>Ausfüllen und unterschreiben</p><div class="btns"><a class="pill sm" href="vorlagen/03-patientenverfuegung.pdf" data-dl="03-patientenverfuegung.pdf" aria-label="Patientenverfügung als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/03-patientenverfuegung.docx" data-dl="03-patientenverfuegung.docx" aria-label="Patientenverfügung als Word herunterladen">Word</a></div></div></article><article class="d"><div class="im p2"><img src="assets/doc04.webp" alt="Erste Seite der Vorlage Testament" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Testament</h4><p>Anleitung und Muster. Ganz von Hand schreiben oder beurkunden.</p><div class="btns"><a class="pill sm" href="vorlagen/04-testament.pdf" data-dl="04-testament.pdf" aria-label="Testament als PDF herunterladen">PDF</a></div></div></article><article class="d"><div class="im p2"><img src="assets/doc05.webp" alt="Erste Seite der Vorlage Vollmacht" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Vollmacht</h4><p>Ausfüllen und unterschreiben. Mit Fachperson.</p><div class="btns"><a class="pill sm" href="vorlagen/05-vollmacht.pdf" data-dl="05-vollmacht.pdf" aria-label="Vollmacht als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/05-vollmacht.docx" data-dl="05-vollmacht.docx" aria-label="Vollmacht als Word herunterladen">Word</a></div></div></article></div></div><div class="grp"><h3>Geld und Zugänge</h3><div class="lib" style="--c:3"><article class="d"><div class="im p3"><img src="assets/doc06.webp" alt="Erste Seite der Vorlage Logins und digitale Zugänge" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Logins und digitale Zugänge</h4><p>Ausfüllen. Nur auf Papier.</p><div class="btns"><a class="pill sm" href="vorlagen/06-logins.pdf" data-dl="06-logins.pdf" aria-label="Logins und digitale Zugänge als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/06-logins.docx" data-dl="06-logins.docx" aria-label="Logins und digitale Zugänge als Word herunterladen">Word</a></div></div></article><article class="d"><div class="im p3"><img src="assets/doc07.webp" alt="Erste Seite der Vorlage Banken, Vermögen, Schulden" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Banken, Vermögen, Schulden</h4><p>Ausfüllen</p><div class="btns"><a class="pill sm" href="vorlagen/07-banken-vermoegen.pdf" data-dl="07-banken-vermoegen.pdf" aria-label="Banken, Vermögen, Schulden als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/07-banken-vermoegen.docx" data-dl="07-banken-vermoegen.docx" aria-label="Banken, Vermögen, Schulden als Word herunterladen">Word</a></div></div></article><article class="d"><div class="im p3"><img src="assets/doc08.webp" alt="Erste Seite der Vorlage Versicherungen und Vorsorge" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Versicherungen und Vorsorge</h4><p>Ausfüllen</p><div class="btns"><a class="pill sm" href="vorlagen/08-versicherungen.pdf" data-dl="08-versicherungen.pdf" aria-label="Versicherungen und Vorsorge als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/08-versicherungen.docx" data-dl="08-versicherungen.docx" aria-label="Versicherungen und Vorsorge als Word herunterladen">Word</a></div></div></article></div></div><div class="grp"><h3>Firma und Hinterlegung</h3><div class="lib" style="--c:2"><article class="d"><div class="im p4"><img src="assets/doc09.webp" alt="Erste Seite der Vorlage Firma: Notfallplan für Unternehmer" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Firma: Notfallplan für Unternehmer</h4><p>Ausfüllen</p><div class="btns"><a class="pill sm" href="vorlagen/09-firma.pdf" data-dl="09-firma.pdf" aria-label="Firma: Notfallplan für Unternehmer als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/09-firma.docx" data-dl="09-firma.docx" aria-label="Firma: Notfallplan für Unternehmer als Word herunterladen">Word</a></div></div></article><article class="d"><div class="im p4"><img src="assets/doc13.webp" alt="Erste Seite der Vorlage Hinterlegungsformular mit Personenliste" width="720" height="560" loading="lazy"></div><div class="bd"><h4>Hinterlegungs&shy;formular mit Personenliste</h4><p>Ausfüllen. Lose einsenden, nicht in den Beutel.</p><div class="btns"><a class="pill sm" href="vorlagen/13-hinterlegung.pdf" data-dl="13-hinterlegung.pdf" aria-label="Hinterlegungsformular mit Personenliste als PDF herunterladen">PDF</a><a class="pill sm ol" href="vorlagen/13-hinterlegung.docx" data-dl="13-hinterlegung.docx" aria-label="Hinterlegungsformular mit Personenliste als Word herunterladen">Word</a></div></div></article></div></div>
+<p class="hand"><strong>Vorsorgeauftrag und Testament:</strong> Schreiben Sie diese von Hand oder lassen Sie sie beurkunden. Ein ausgefülltes Formular genügt hier nicht.</p>
+</section>
+<section class="in sec" id="nicht"><div class="head"><h2>Was die Notfallbox nicht ist.</h2></div>
+<div class="not"><div><h3>Kein Portal</h3><p>Es gibt kein Login und keine Kundendaten im Internet. Logins liegen nur auf Papier im Beutel.</p></div>
+<div><h3>Kein Wertsachenfach</h3><p>Bargeld, Schmuck und Wertpapiere gehören nicht in den Beutel.</p></div>
+<div><h3>Keine Rechtsberatung</h3><p>Wir öffnen den Beutel nicht und prüfen den Inhalt nicht. Für Fragen zum Inhalt ist Ihr Treuhänder oder Ihre Fachperson da.</p></div></div></section>
+<section class="in sec" id="preis"><div class="price"><div class="pc b"><span class="g">Preis</span><p class="big">CHF 490</p><p class="g">inkl. MWST. Jahresgebühr [noch offen].</p><ul><li>Sicherheitsbeutel mit Nummer</li><li>Zehn Notfallkarten</li><li>Annahme und Aufbewahrung</li></ul><a class="pill" href="#vorlagen">Vorlagen ansehen</a></div>
+<div class="pc l p6"><h3>Ihre Box bleibt Ihre Box.</h3><p>Sie können sie jederzeit zurückverlangen.</p><p>Einmal im Jahr fragt Ihr Treuhänder nach. Hat sich etwas geändert, entsteht ein neuer Beutel. Die alte Box geht an Sie zurück. Die Kartennummer kann bleiben.</p></div></div></section>
+<section class="in sec" id="treuhaender"><article class="c p4 wide rev"><div class="tx"><h3>Für Treuhänder</h3><p>Sie begleiten Ihre Kunden beim Ausfüllen, versiegeln den Beutel und senden ihn eingeschrieben an uns. Einmal im Jahr fragen Sie nach, ob sich etwas geändert hat.</p><p class="note">Melden Sie sich: [E-Mail]</p></div><div class="pic"><img src="assets/treu.webp" alt="Versiegelter Beutel Nummer 720 mit Füller" width="1500" height="1030" loading="lazy"></div></article></section>
+</main>
+<footer><div class="in"><div class="ft"><div><strong>Advisori GmbH</strong>Betreiberin und Verwahrerin der Notfallbox</div><div><strong>Adresse</strong>[Strasse und Nummer]<br>[PLZ Ort]</div><div><strong>Kontakt</strong>[Telefon]<br>[E-Mail]<br>[Öffnungszeiten]</div></div>
+<p class="draft">Entwurf. Noch nicht rechtlich geprüft. Angaben in eckigen Klammern sind noch offen.</p></div></footer>
+<p id="dl-msg" role="status" aria-live="polite" hidden></p>
+<script>(async()=>{
+ const msg=document.getElementById('dl-msg');
+ let timer;
+ const say=t=>{msg.textContent=t;msg.hidden=false;clearTimeout(timer);timer=setTimeout(()=>{msg.hidden=true},8000)};
+ let dl=null;
+ try{dl=await window.claude?.use?.("downloads")}catch(e){dl=null}
+ if(!dl){const w=document.querySelector('a[href$=".docx"]');if(w){let ok=false;try{ok=(await fetch(w.getAttribute('href'),{method:'HEAD'})).ok}catch(e){}if(!ok)document.querySelectorAll('a[href$=".docx"]').forEach(x=>{x.hidden=true})}return;}
+ document.addEventListener('click',async ev=>{
+  const a=ev.target.closest&&ev.target.closest('a[data-dl]');
+  if(!a||ev.metaKey||ev.ctrlKey||ev.shiftKey)return;
+  ev.preventDefault();
+  const name=a.dataset.dl;
+  if(a.getAttribute('aria-busy')==='true')return;
+  a.setAttribute('aria-busy','true');
+  try{
+   const href=a.getAttribute('href');const isWord=href.endsWith('.docx');const res=await fetch(isWord?href+'.b64.txt':href);
+   if(!res.ok)throw {message:'Datei nicht gefunden (Status '+res.status+')'};
+   const data=isWord?Uint8Array.from(atob((await res.text()).trim()),c=>c.charCodeAt(0)):await res.blob();
+   await dl.save({filename:name,data});
+   say(name+' gespeichert.');
+  }catch(e){
+   if(e&&e.code==='declined'){/* Betrachter hat abgelehnt: nichts zu melden */}
+   else if(e&&e.code==='rate_limited')say('Ein Speicherdialog ist noch offen. Schliessen Sie ihn und versuchen Sie es erneut.');
+   else say(name+' konnte nicht geladen werden: '+(e&&e.code?((e.message)||e.code):(e&&e.message&&e.message.startsWith('Datei')?e.message:'keine Verbindung zur Datei'))+'. Versuchen Sie es erneut.');
+  }finally{a.removeAttribute('aria-busy')}
+ });
+})();
+</script></body></html>
