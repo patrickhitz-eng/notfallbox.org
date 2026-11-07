@@ -4,12 +4,4 @@ window.NB_CONFIG = {
   contact: { phone: "", phoneHours: "", email:"info@advisori.ch", orderEmail:"info@advisori.ch", partnerEmail:"info@advisori.ch" },
   storage: { location:"Verschlossener Tresor in den Räumen der Advisori GmbH" },
   prices: { setup: 490, annual: 49, renewal: 79, currency: "CHF", vatIncluded: true },
-  partner: {
-    tiers: [
-      { name: "Bronze", rate: 30, criterion: "ab Start" },
-      { name: "Silber", rate: 40, criterion: "ab 10 Boxen pro Jahr" },
-      { name: "Gold", rate: 50, criterion: "ab 30 Boxen pro Jahr" }
-    ],
-    base: "Einrichtungsgebühr"
-  }
 };

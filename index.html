@@ -389,10 +389,6 @@ footer{margin-top:112px;border-top:1px solid var(--line);padding:48px 0 48px;fon
  document.querySelectorAll('[data-cfg-href]').forEach(el=>{el.setAttribute('href',fill(el.dataset.cfgHref))});
  document.querySelectorAll('[data-cfg-if]').forEach(el=>{el.hidden=!anyOf(el.dataset.cfgIf)});
  document.querySelectorAll('[data-cfg-ifnot]').forEach(el=>{el.hidden=anyOf(el.dataset.cfgIfnot)});
- // Provisionsstufen
- const tiers=(C.partner&&Array.isArray(C.partner.tiers))?C.partner.tiers:null;
- const tl=document.getElementById('tiers');
- if(tiers&&tl){tl.textContent='';tiers.forEach(t=>{const li=document.createElement('li');const b=document.createElement('b');b.textContent=t.name;const r=document.createElement('span');r.className='r';r.textContent=t.rate+' %';const s=document.createElement('small');s.textContent=t.criterion||'';li.append(b,r,s);tl.append(li)})}
  // Partnercode
  const RX=/^[A-Z0-9-]{3,12}$/;
  const codeIn=document.getElementById('o-code'),ref=document.getElementById('ref');
